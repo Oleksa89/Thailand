@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 168px;
+}
+h4{
+    font-size: 24px;
+}
+
+.banner {
+        background: url(/img/main.png)0 0/100% 100% no-repeat;
+        color: #ffffff;
+        text-align: center;
+        display: flex;
+        min-height: 100vh;
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+
+
+
+    &__header {
+        width: 100%;
+        margin: 20px 0 0 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+    }
+}
+
+.header {
+
+}
+.logo {
+
+    &__img {}
+
+    &__txt {}
+}
+.navbar {
+
+}
+.header-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+
+    &__item {
+        margin: 0 10px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #ffffff;
+    
+    }
+   
+}
+.header-search__star::before{
+    content: url(/img/lupa.png);    
+}
+.header-search__star:after{
+    content: url(/img/star.png);
+}
+
+.header-search {
+
+    &__input {}
+
+    &__star {}
+}
+.banner-main {
+    
+
+    &__button {
+        background: #16DCF0;
+        width: 150px;
+        height: 60px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+}
+.banner-main__button>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 60px;
+
+}
+.newlife {
+
+    .wrapper{
+        max-width: 1000px;
+        margin: 0 auto;
+
+    }
+    height: 100vh;
+    text-align: center;
+    vertical-align: 50vh;
+
+    
+
+    &__photos {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        
+    }
+    &__text{
+        width: 45%;
+        margin: 50px auto;
+    }
+}
+.newlife__item:hover::before{
+    position: absolute;
+    content: url(../img/star2.png);
+    top: 0;
+    right: 0;
+}
+.newlife__item:hover::before{
+    position: absolute;
+    content: url(../img/star2.png);
+    top: 0;
+    right: 0;
+}
+
+.marina-phuket{
+    background: url(../img/sara.jpg) 0 0/100% 100% no-repeat;
+    height: 665px;    
+}

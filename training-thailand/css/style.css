@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 168px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.banner {
+  background: url(/img/main.png) 0 0/100% 100% no-repeat;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.banner .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.banner__header {
+  width: 100%;
+  margin: 20px 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-menu__item {
+  margin: 0 10px;
+}
+
+.header-menu__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-search__star::before {
+  content: url(/img/lupa.png);
+}
+
+.header-search__star:after {
+  content: url(/img/star.png);
+}
+
+.banner-main__button {
+  background: #16DCF0;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.banner-main__button > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.newlife {
+  height: 100vh;
+  text-align: center;
+  vertical-align: 50vh;
+}
+
+.newlife .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.newlife__photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.newlife__text {
+  width: 45%;
+  margin: 50px auto;
+}
+
+.newlife__item:hover::before {
+  position: absolute;
+  content: url(../img/star2.png);
+  top: 0;
+  right: 0;
+}
+
+.newlife__item:hover::before {
+  position: absolute;
+  content: url(../img/star2.png);
+  top: 0;
+  right: 0;
+}
+
+.marina-phuket {
+  background: url(../img/sara.jpg) 0 0/100% 100% no-repeat;
+  height: 665px;
+}
+/*# sourceMappingURL=style.css.map */
