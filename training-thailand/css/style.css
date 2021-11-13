@@ -27,7 +27,7 @@ h4 {
 }
 
 .banner {
-  background: url(/img/main.png) 0 0/100% 100% no-repeat;
+  background: url(../img/main.png) 0 0/100% 100% no-repeat;
   color: #ffffff;
   text-align: center;
   display: -webkit-box;
