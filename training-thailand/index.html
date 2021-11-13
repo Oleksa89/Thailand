@@ -9,57 +9,164 @@
 </head>
 
 <body>
-<section class="banner">
-    <div class="wrapper">
-    <header class="banner__header header">
-        <div class="logo">
-            <img class="logo__img" src="img/airplane.png" alt="">
-            <span class="logo__txt">Expedia</span>
+    <section class="banner">
+        <div class="wrapper">
+            <header class="banner__header header">
+                <div class="logo">
+                    <img class="logo__img" src="img/airplane.png" alt="">
+                    <span class="logo__txt">Expedia</span>
+                </div>
+                <nav class="navbar">
+                    <ul class="header-menu">
+                        <li class="header-menu__item"><a class="header-menu__link" href="">News</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="">Destinations</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="">Blog</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <form action="" class="header-search">
+                    <input type="text" name="" id="" class="header-search__input">
+                    <a href="#"><span class="header-search__star"></span></a>
+                </form>
+            </header>
+            <div class="banner-main">
+                <h4>A Symbol of freedom</h4>
+                <h1>Thailand</h1>
+                <div class="banner-main__button button">
+                    <a href="">Explore</a>
+                </div>
+            </div>
         </div>
-        <nav class="navbar">
-            <ul class="header-menu">
-                <li class="header-menu__item"><a class="header-menu__link" href="">News</a></li>
-                <li class="header-menu__item"><a class="header-menu__link" href="">Destinations</a></li>
-                <li class="header-menu__item"><a class="header-menu__link" href="">Blog</a></li>
-                <li class="header-menu__item"><a class="header-menu__link" href="">Contact</a></li>
-            </ul>
-        </nav>
-        <form action="" class="header-search">
-            <input type="text" name="" id="" class="header-search__input">
-            <a href="#"><span class="header-search__star"></span></a>
+    </section>
+    <section class="newlife">
+        <div class="wrapper">
+            <div class="newlife__text">
+                <h3>A NEW SKY A NEW LIFE</h3>
+                <p>Lorem ipsum dolor sit amet, conseetuer adipiscing elit. Aenan comdo
+                    igula eget. Aenean massa cum sociis Theme natoque.</p>
+            </div>
+            <div class="islands">
+                <div class="islands__item">
+                    <img class="newlife__photo" src="./img/island1.jpg" alt="">
+                    <div class="islands__dropdown">
+                        <h4>Ao Nang</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, corporis.</p>
+                            <a href="#">Read more</a>
+                    </div>
+
+                </div>
+                <div class="islands__item">
+                    <img class="newlife__photo" src="./img/island2.jpg" alt="">
+                    <div class="islands__dropdown">
+                        <h4>Ao Nang</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, corporis.</p>
+                            <a href="#">Read more</a>
+                    </div>
+
+                </div>
+                <div class="islands__item">
+                    <img class="newlife__photo" src="./img/island3.jpg" alt="">
+                    <div class="islands__dropdown">
+                        <h4>Ao Nang</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, corporis.</p>
+                            <a href="#">Read more</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="marina-phuket">
+        <div class="sale">
+            <div class="sale__window">
+            <h2>20% OFF</h2>
+            <h3>The Marina Phuket Hotel</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum tristique sagittis nisi volutpat.
+                Tortor, sit proin maecenas tortor </p>
+            <div class="sale__button button"><a href="">Buy now</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="slider-wrap">
+            <div class="slider__item"><img src="./img/logo/delta logo 1.png" alt=""></div>   
+            <div class="slider__item"><img src="./img/logo/Emirates 1.png" alt=""></div>   
+            <div class="slider__item"><img src="./img/logo/qantas-vector-logo 1.png" alt=""></div>   
+            <div class="slider__item"><img src="./img/logo/qatar.png" alt=""></div>   
+            <div class="slider__item"><img src="./img/logo/singapore-2.png" alt=""></div>   
+
+        </div>
+
+    </section>
+    <section class="booking">
+        <div class="booking-container">
+        <h4>BOOK A TICKET AND JUST LEAVE</h4>
+        <form class="booking-data" action="">
+            <div class="booking-form">
+            <div class="booking-form__name">
+            <label for="name">Name</label>
+            <input type="text" name="name">
+            </div>
+            <div class="booking-form__hotel">
+                <label for="hotel">Hotel</label>
+
+            <select name="hotel" id="">
+                <option value=""></option>
+                <option value="">Nonthaburi</option>
+                <option value="">Bangkok</option>
+                <option value="">Nakhon Ratchasima</option>
+                <option value="">Chiang Mai</option>
+            </select>
+            </div>
+            <div class="booking-form__surname">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname">
+
+            </div>
+            <div class="booking-form__city">
+                <label for="city">City</label>
+            <select name="city" id="">
+                <option value=""></option>
+                <option value="">Nonthaburi</option>
+                <option value="">Bangkok</option>
+                <option value="">Nakhon Ratchasima</option>
+                <option value="">Chiang Mai</option>
+            </select>
+        </div>
+            <div class="booking-form__date">
+                <div class="date">
+                    <label for="arrival-date">Arrival</label>
+                    <input type="date" name="arrival-date">
+                </div>
+                <div class="date">
+                    <label for="departue-date">Departue</label>
+                     <input type="date" name="departue-date" id="">
+                </div>
+            </div>
+            <div class="booking-form__guests">
+                <label for="guests">Guests</label>
+                <div class="guest-list">
+                <input type="radio" name="1 person" id="">
+                <label for="1 person">1 Person</label>
+                <input type="radio" name="2 persons" id="">
+                <label for="2 persons">2 Persons</label>
+                <input type="radio" name="4 persons" id="">
+                <label for="4 persons">4 Persons</label>
+                <input type="checkbox" name="transfer" id="">
+                <label for="transfer">Transfer</label>
+            </div>
+
+            </div>
+            </div>
+            <button class="booking-form__button button">Explore</button>
+            
+
         </form>
-    </header>
-    <div class="banner-main">
-        <h4>A Symbol of freedom</h4>
-        <h1>Thailand</h1>
-        <div class="banner-main__button">
-            <a href="">Explore</a>
-        </div>
     </div>
-</div>
-</section>
-<section class="newlife">
-    <div class="wrapper">
-    <div class="newlife__text">
-        <h2>A NEW SKY A NEW LIFE</h2>
-        <p>Lorem ipsum dolor sit amet, conseetuer adipiscing elit. Aenan comdo
-            igula eget. Aenean massa cum sociis Theme natoque.</p>
-    </div>
-    <div class="newlife__photos">
-        <div class="newlife__item"><img  src="./img/island1.jpg" alt="">
-        </div>
-        <div class="newlife__item"><img  src="./img/island2.jpg" alt="">
-        </div>
-        <div class="newlife__item"><img  src="./img/island3.jpg" alt="">
-        </div>
 
-    </div>
-</div>
-
-</section>
-<section class="marina-phuket">
-    
-</section>
+    </section>
 
 </body>
 
