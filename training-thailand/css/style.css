@@ -26,6 +26,10 @@ h4 {
   font-size: 24px;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .banner {
   background: url(../img/main.png) 0 0/100% 100% no-repeat;
   color: #ffffff;
@@ -64,7 +68,7 @@ h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .header-menu {
@@ -300,8 +304,9 @@ h4 {
           align-items: center;
 }
 
-.booking h4 {
+.booking h3 {
   text-align: center;
+  margin: 20px 0;
 }
 
 .booking-form {
@@ -371,6 +376,47 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.booking-form input, .booking-form select {
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.booking-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: url(../img/arrow-down.png) no-repeat right 1px;
+  outline: 0;
+}
+
+.guest-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.guest-list input {
+  height: 18px;
+}
+
+.booking-data__explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.booking-data__button {
+  margin: 40px 0;
 }
 
 .booking-container {

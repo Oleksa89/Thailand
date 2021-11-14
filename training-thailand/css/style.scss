@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}.wrapper {
+}
+.wrapper {
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -18,6 +19,9 @@ h3{
 }
 h4{
     font-size: 24px;
+}
+h1,h2,h3,h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .banner {
@@ -45,7 +49,7 @@ h4{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -261,8 +265,9 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    h4{
+    h3{
         text-align: center;
+        margin: 20px 0;
     }
         
     
@@ -296,6 +301,24 @@ h4{
             flex-direction: column;
         }
     }
+    input, select{
+        border: 1px solid #C4C4C4;
+        border-radius: 5px;
+        height: 30px;
+
+    }
+    select{
+        // background: url(../img/arrow\down.png) no-repeat right #ddd;
+        // background-position-x: 20px ;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        background: url(../img/arrow-down.png) no-repeat right 1px;
+        outline: 0;
+    }
+   
+    
 
     &__guests{
 
@@ -306,6 +329,28 @@ h4{
     }
 
 }
+.guest-list{
+    display: flex;
+    justify-content: space-between;
+    input{
+        height: 18px;
+        
+    }
+}
+.booking-data {
+
+    &__explore {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__button {
+        margin: 40px 0;
+    }
+}
+.button {
+}
+
         
 
 .booking-container{
