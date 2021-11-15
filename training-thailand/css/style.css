@@ -98,11 +98,11 @@ h1, h2, h3, h4 {
 }
 
 .header-search__star::before {
-  content: url(/img/lupa.png);
+  content: url(../img/lupa.png);
 }
 
 .header-search__star:after {
-  content: url(/img/star.png);
+  content: url(../img/star.png);
 }
 
 .header-search__input {
