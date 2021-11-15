@@ -217,23 +217,15 @@ h1,h2,h3,h4 {
     text-align: center;
     margin-top: 20px;
 }
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-250px * 5));
-    }
-}
+// 
 @mixin white-gradient {
 	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
-.slider {
-    margin: auto;
-    justify-content: center;
+.sponsors {
+    
     height: 200px;
     width: 100vw;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    // box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     overflow: hidden;
     position: relative;
     &::before, &::after {
@@ -241,7 +233,7 @@ h1,h2,h3,h4 {
 		content: "";
 		height: 200px;
 		position: absolute;
-		width: 200px;
+		width: 300px;
 		z-index: 2;
     }
     &:before{
@@ -255,19 +247,17 @@ h1,h2,h3,h4 {
     }
 
     &__item {
-        margin: 20px;
+        padding: 40px;
+        margin: auto;
+        img{
+            width: 100%;
+        }
     }
 }
-.slider-wrap {
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-    margin: 0 auto;
 
-    display: flex;
-
-}
-.slider .slider-wrap {
-    animation: scroll 4s linear infinite;
-}
+// .sponsors .sponsors-wrap {
+//     animation: scroll 4s linear infinite;
+// }
 .booking{
     font-size: 14px;
     width: 100vw;
