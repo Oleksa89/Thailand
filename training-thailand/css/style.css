@@ -71,7 +71,15 @@ h1, h2, h3, h4 {
   font-size: 16px;
 }
 
-.header-menu {
+.logo__txt {
+  font-size: 16px;
+}
+
+.navbar li:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.header-menu, .footer-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,11 +88,11 @@ h1, h2, h3, h4 {
       justify-content: space-around;
 }
 
-.header-menu__item {
+.header-menu__item, .footer-menu__item {
   margin: 0 10px;
 }
 
-.header-menu__link {
+.header-menu__link, .footer-menu__link {
   text-decoration: none;
   color: #ffffff;
 }
@@ -95,6 +103,12 @@ h1, h2, h3, h4 {
 
 .header-search__star:after {
   content: url(/img/star.png);
+}
+
+.header-search__input {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #ffffff;
 }
 
 .button {
@@ -424,5 +438,41 @@ h1, h2, h3, h4 {
   margin: 0 auto;
   max-width: 1280px;
   background: #ffffff;
+}
+
+footer {
+  height: 100px;
+  vertical-align: bottom;
+  padding: 40px;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-menu__link {
+  color: black;
+}
+
+.footer-menu li:hover {
+  border-bottom: 2px solid black;
+}
+
+.social i {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
