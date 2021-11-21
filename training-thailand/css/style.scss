@@ -4,6 +4,140 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (max-width:998px){
+    .navbar{
+        display: none;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .header-search{
+        display: none;
+    }
+    h1{
+        font-size:100px;
+    }
+    h4{
+        opacity: 0;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top:30px;
+        left:125px;
+    }
+    .islands{
+        flex-direction: column;
+        &__item{
+            max-width: 50%;
+            margin: 5px auto;
+        }
+
+    }
+    .marina-phuket:hover .sale{
+        visibility: hidden;
+    
+    }
+    .sale{
+        opacity: 0;
+    }
+    .booking{
+        // height: initial;
+        // width: initial;
+    }
+    .booking-container{
+        min-height: 100vh;
+    }
+    .booking-data{
+        box-sizing: content-box;
+    }
+    
+    
+   
+}
+@media (max-width:617px){
+    .booking-form{
+        grid-template-columns: 1fr !important;
+    }
+    .marina-phuket{
+        background: url(../img/sara.jpg)  !important;
+    }
+
+}
+    .nav-hidden {
+    visibility: hidden;
+}
+@media (max-width:998px){
+    .nav-hidden{
+        visibility: visible;
+    }
+}
+    .menu {
+        display: block;
+        position: absolute;
+            visibility: hidden;
+            top: 0;
+            left: -100%;
+            width: 300px;
+            height: 100%;
+            list-style: none;
+            text-align: center;
+    
+    
+            &__btn {
+                display: flex;
+                align-items: center;
+                position: absolute;
+                top: 28px;
+                left: 270px;
+                width: 26px;
+                height: 26px;
+                cursor: pointer;
+                z-index: 1;
+    
+            }
+            &__btn>span, &__btn>span::before, &__btn>span:after {
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background-color: white;
+            }
+            &__btn>span::before{
+                content: '';
+                top: -8px;
+            }
+            &__btn>span::after{
+                content: '';
+                top: 8px;
+            }
+    
+            &__item {
+                display: block;
+                text-decoration: none;
+                color: white;
+            }
+    }
+    #menu__toggle{
+        opacity: 0;
+    }
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu {
+        visibility: visible;
+        left: 125px;
+        top: 50px;
+      }
+    // burger
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
@@ -131,12 +265,12 @@ h1,h2,h3,h4 {
 
     .wrapper{
         max-width: 1000px;
-        margin: 0 auto;
+        margin: 10em auto;
 
     }
-    height: 100vh;
+    // height: 100vh;
     text-align: center;
-    vertical-align: 50vh;
+    // vertical-align: 50vh;
 
     
     
@@ -189,7 +323,7 @@ h1,h2,h3,h4 {
 
 .marina-phuket{
     background: url(../img/sara.jpg) 0 0/100% 100% no-repeat;
-    height: 665px;    
+    height: 100vh;    
     color: #ffffff;
 }
 .marina-phuket:hover .sale{
@@ -250,7 +384,7 @@ h1,h2,h3,h4 {
         padding: 40px;
         margin: auto;
         img{
-            width: 100%;
+            max-width: 100%;
         }
     }
 }
@@ -335,8 +469,8 @@ h1,h2,h3,h4 {
     justify-content: space-between;
     input{
         height: 18px;
-        
-    }
+    }    
+    
 }
 .booking-data {
 
@@ -398,12 +532,5 @@ footer{
 
     }
 }
-.fab {
-}
-.fa-facebook {
-}
-.fa-instagram {
-}
-.fa-twitter {
-}
+
 
